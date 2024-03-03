@@ -8,7 +8,7 @@
                     } else if (i % 3 == 0) {
                         System.out.println(i + ":Ping");
                     }else if (i % 5 == 0) {
-                        System.out.println(i + ":pong");
+                        System.out.println(i + ": pong");
                     }
                 }
 /*# 1.4 Циклы
