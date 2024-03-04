@@ -4,12 +4,12 @@ public class Main {
         for (int i = 0; i <= 30; i++) {
             if (i % 3 == 0) {
                 if (i % 5 == 0) {
-                    System.out.print(i+":Pong - ");
+                    System.out.print(i + ":Pong - ");
                 }
-                System.out.println(i+":ping");
+                System.out.println(i + ":ping");
 
             } else if (i % 5 == 0) {
-                System.out.println(i+":PONG");
+                System.out.println(i + ":PONG");
             }
 
         }
@@ -26,11 +26,13 @@ public class Main {
 
         int n = 25;
         int a = 0;
-        for (int i =0; i < n ; i++) {
+        for (int i = 0; i < n; i++) {
             a = i + (a - 1);
             //a++;
             System.out.println(a);
         }
+    }
+}
 
         /*### Повышенная сложность. Задание 5
 
@@ -50,6 +52,3 @@ public class Main {
      в которой первые два числа равны 0 и 1, а каждое последующее число равно сумме двух предыдущих чисел.
       Названы в честь средневекового математика Леонардо Пизанского.
 
-
-    }
-}
